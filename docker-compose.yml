@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+  
+  web:
+    image: nginx:latest
+    container_name: web
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/home:/usr/share/nginx/home
+      - ./nginx/bot:/usr/share/nginx/bot
+      - ./nginx/dev:/usr/share/nginx/dev
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - ./nginx/log/error.log:/var/log/nginx/error.log
+      - ./certbot/conf/:/etc/letsencrypt/:ro
+      - ./certbot/www/:/var/www/certbot/:ro
+    links:
+      - php
+
+  certbot:
+    image: certbot/certbot:latest
+    container_name: certbot
+    command: certbot certonly --webroot --webroot-path /var/www/certbot -d nld.lol -d www.nld.lol
+    volumes:
+      - ./certbot/conf/:/etc/letsencrypt/:rw
+      - ./certbot/www/:/var/www/certbot/:rw
+
+  php:
+    image: php:7-fpm
+    container_name: php
+    volumes:
+      - ./nginx/home:/usr/share/nginx/home
+      - ./nginx/bot:/usr/share/nginx/bot
+      - ./nginx/dev:/usr/share/nginx/dev
+
+  dns:
+    image: strm/dnsmasq
+    container_name: dns
+    restart: always
+    volumes:
+      - ./dns/dnsmasq.conf:/etc/dnsmasq.conf
+    ports:
+      - 53:53/udp
+    cap_add:
+      - NET_ADMIN
+
+  db:
+    image: mysql:5.7
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: password123
+      MYSQL_DATABASE: webdb
+      MYSQL_USER: nld
+      MYSQL_PASSWORD: password123
+    ports:
+      - 6033:3306
+    volumes:
+      - ./data:/var/lib/mysql
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    links:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8080:80
